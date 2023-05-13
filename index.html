@@ -6,22 +6,23 @@
     textarea {
       resize: none;
     }
-
+    nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
     ul {
       list-style-type: none;
       display: flex;
       gap: 20px;
       justify-content: flex-end;
     }
-
     li a {
       color: white;
       text-decoration: none;
     }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
+    #imgHome {
+      width: 100%;
     }
   </style>
   <link rel="icon" href="images/pagetab.png">
@@ -39,10 +40,7 @@
       <li><a href="contactus.html" target="_blank">CONTACT US</a></li>
     </ul>
   </nav>
-
-  <div style="text-align:center;">
-    <img src="images/Home.png" align="center" alt="NAME">
-  </div>
+  <img id="imgHome" src="images/Home.png" alt="NAME">
 
   <!-- <table border="0" width="1300" height="500" align="center" cellspacing="4" cellpadding="7" bgcolor="#101820"
     background="images/Home.png" align="center">
@@ -68,7 +66,7 @@
 
 
   <div id="gallery">
-    <table border="0" width="1300" height="100" align="center" bgcolor="#0B1116">
+    <table border="0" height="100" align="center" bgcolor="#0B1116">
       <tr>
         <td>
           <center>
@@ -80,7 +78,13 @@
       </tr>
     </table>
 
-    <table style="border:1;border-collapse: collapse" width="1300" height="300" align="center" bgcolor="#101820"
+    <marquee behavior="scroll" direction="left" scrollamount="5" style="width:100%;">
+    <img src="car4.png" alt="image 1" style="height:800px">
+    <img src="car3.png" alt="image 1" style="height:800px">
+    <img src="car6.png" alt="image 1" style="height:800px">
+    <img src="car5.png" alt="image 1" style="height:800px">
+  </marquee>
+    <!-- <table style="border:1;border-collapse: collapse" height="300" align="center" bgcolor="#101820"
       align="center" border-collapdse="collapse">
 
       <tr>
@@ -93,7 +97,7 @@
         <td align="center" width="400" height="500"><img src="car5.png" width="400" height="500"></td>
         </td>
       </tr>
-    </table>
+    </table> -->
   </div>
 
 
