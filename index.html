@@ -4,129 +4,102 @@
 <head>
   <style>
     textarea {
-      resize: none;
+        resize: none;
     }
 
     nav {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     ul {
-      list-style-type: none;
-      display: flex;
-      gap: 20px;
-      justify-content: flex-end;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
     }
 
     li a {
-      color: white;
-      text-decoration: none;
+        color: white;
+        text-decoration: none;
     }
 
     #imgHome {
-      width: 100%;
+        width: 100%;
     }
   </style>
+  
+
   <link rel="icon" href="images/pagetab.png">
+
   <title>Wallpaper Project</title>
 </head>
+
+
 <body bgcolor="#0B1116" style="color:white;font-family:verdana">
-
-
-  
   <nav>
     <a href="index.html">
       <img src="images/pagetab.png" alt="homepage" width="50" height="50" alt="NAME">
     </a>
     <ul>
-      <li><a href="gallery.html" target="_blank">GALLERY</a></li>
-      <li><a href="aboutus.html" target="_blank">ABOUT US</a></li>
+      <li><a href="samples.html" target="_blank">SAMPLES</a></li>
+      <li><a href="pricing.html" target="_blank">PRICING</a></li>
       <li><a href="contactus.html" target="_blank">CONTACT US</a></li>
     </ul>
   </nav>
+
+  </div>
   <img id="imgHome" src="images/Home.png" alt="NAME">
 
 
 
-  <div id="gallery">
+  <div id="samples">
     <center>
-      <h1 style="font-size: 50px;">Gallery</h1>
+      <h1 style="font-size: 50px;">Samples</h1>
     </center>
 
-    <marquee behavior="scroll" direction="left" scrollamount="15" style="width:100%;">
-      <img src="images/w1.png" alt="image 1" style="height:800px">
-      <img src="images/w2.png" alt="image 2" style="height:800px">
-      <img src="images/w3.png" alt="image 3" style="height:800px">
-      <img src="images/w4.png" alt="image 4" style="height:800px">
-      <img src="images/w5.png" alt="image 5" style="height:800px">
-      <img src="images/w6.png" alt="image 6" style="height:800px">
-      <img src="images/w7.png" alt="image 7" style="height:800px">
-      <img src="images/w8.png" alt="image 8" style="height:800px">
-      <img src="images/w9.png" alt="image 9" style="height:800px">
-      <img src="images/w10.png" alt="image 10" style="height:800px">
-      <img src="images/w1.png" alt="image 11" style="height:800px">
+    <marquee id="myMarquee" behavior="scroll" direction="left" scrollamount="15" style="width:100%;" onmouseover="this.stop();" onmouseout="this.start();">
+      <img src="images/w1.png" alt="image 1" style="height:550px">
+      <img src="images/w2.png" alt="image 2" style="height:550px">
+      <img src="images/w3.png" alt="image 3" style="height:550px">
+      <img src="images/w4.png" alt="image 4" style="height:550px">
+      <img src="images/w5.png" alt="image 5" style="height:550px">
+      <img src="images/w6.png" alt="image 6" style="height:550px">
+      <img src="images/w7.png" alt="image 7" style="height:550px">
+      <img src="images/w8.png" alt="image 8" style="height:550px">
+      <img src="images/w9.png" alt="image 9" style="height:550px">
+      <img src="images/w10.png" alt="image 10" style="height:550px">
+      <img src="images/w1.png" alt="image 11" style="height:550px">
     </marquee>
   </div>
-
-
-
   <div id="aboutus">
-    <center>
-      <h1 style="font-size: 50px;">About Us</h1>
-    </center>
+        <center>
+            <h1 style="font-size: 50px;">About Us</h1>
+        </center>
+        <table border="0" width="100%" height="500" align="center" bgcolor="#0B1116">
+            <tr>
 
-    <table border="0" width="100%" height="500" align="center" bgcolor="#0B1116">
-      <tr>
-        <td rowspan="2" width="100" height="500"></td>
-        <td width="500" height="500">
-          <p style="font-family:verdana;color:lightgrey"><big><big>Hi! Who are we?</big></big></br>
-            </br>
-            <big>We create wallpapers that will make your heart sing!
-              We don't just slap some random images together and call it a day.
-              Oh no, we specialize in understanding your feelings and creating unique designs that will make your screen look like
-              a masterpiece.
-              Our team consists of individuals who are so passionate about wallpapers that we literally eat them for breakfast!
-              We believe that your screen is an extension of your personality and we want to help you show off your swag in
-              the most colorful and creative way possible. So, whether you're looking to jazz up your work computer or add some
-              pizazz to your phone, we've got you covered! Come on, let's make some magic together.</big>
-          </p>
-        </td>
-        <td align="center" width="500" height="500"><img src="images/aboutus.png" width="500" height="500"></td>
-      </tr>
-    </table>
+                <td rowspan="2" width="100" height="500"></td>
+                <td width="500" height="500">
+                    <p style="font-family:verdana;color:lightgrey"><big><big>Hi! Who are we?</big></big></br>
+                        </br>
+                        <big>We create wallpapers that will make your heart sing!
+                            We don't just slap some random images together and call it a day.
+                            Oh no, we specialize in understanding your feelings and creating unique designs that will make your screen look like
+                            a masterpiece.
+                            Our team consists of individuals who are so passionate about wallpapers that we literally eat them for breakfast!
+                            We believe that your screen is an extension of your personality and we want to help you show off your swag in
+                            the most colorful and creative way possible. So, whether you're looking to jazz up your work computer or add some
+                            pizazz to your phone, we've got you covered! Come on, let's make some magic together.</big>
+                    </p>
+                </td>
+                <td align="center" width="700" height="500"><img src="images/aboutus.png" width="500" height="500"></td>
+            </tr>
+        </table>
   </div>
 
-
-
-  <div id="contactus">
-    <center>
-      <h1 style="font-size: 50px;">Contact Us</h1>
-    </center>
-
-    <table border="0" width="100%" height="300" align="center" bgcolor="#101820">
-      <tr>
-        <td width=300></td>
-        <td>
-          <form>
-            <p align="left">Username</p>
-            <input type="text"></br>
-            <p align="left">Email</p>
-            <input type="Email"></br></br></br>
-            <input type="submit">
-          </form>
-        </td>
-        <td align="center">
-          <textarea rows="12" cols="50" textsize="6">
-        </textarea>
-        </td>
-        <td width=300> </td>
-      </tr>
-    </table>
-
-
-
+  <div>
     <table border="0" width="100%" height="30" align="center">
       <tr>
         <td>
