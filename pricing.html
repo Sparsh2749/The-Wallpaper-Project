@@ -9,14 +9,14 @@
             width: 100%;
         }
 
-        ul {
+        #navigation-bar-settings {
             list-style-type: none;
             display: flex;
             gap: 20px;
             justify-content: flex-end;
         }
 
-        li a {
+        #navigation-bar {
             color: white;
             text-decoration: none;
         }
@@ -48,7 +48,11 @@
             padding: 2rem;
             text-align: center;
             margin: 0 1rem;
-            max-width: 300px;
+            width: 300px;
+            height: 500px;
+            display: ;
+            justify-content: center;
+            align-items: center;
         }
 
         .pricing-table h2 {
@@ -62,7 +66,7 @@
         }
 
         .pricing-table .price {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 1.5rem;
         }
@@ -94,65 +98,72 @@
 
     <link rel="icon" href="images/pagetab.png">
     <title>Pricing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-... (CSS integrity code)" crossorigin="anonymous" />
+
 </head>
 
 <body>
 
-    <nav>
+    <nav style="font-family:verdana">
         <a href="index.html">
-            <img src="images/pagetab.png" alt="homepage" width="50" height="50" alt="NAME" id="yo">
+            <img src="images/pagetab.png" alt="homepage" width="50" height="50" alt="NAME" id="navigation-bar-settings">
         </a>
-        <ul>
-            <li><a href="index.html" target="_blank">HOME</a></li>
-            <li><a href="samples.html" target="_blank" id="av">SAMPLES</a></li>
-            <li><a href="pricing.html" target="_blank" id="av">PRICING</a></li>
-            <li><a href="contactus.html" target="_blank" id="av">CONTACT US</a></li>
+        <ul id="navigation-bar-settings">
+            <li><a href="index.html" target="_blank" id="navigation-bar">HOME</a></li>
+            <li><a href="samples.html" target="_blank" id="navigation-bar">SAMPLES</a></li>
+            <li><a href="pricing.html" target="_blank" id="navigation-bar">PRICING</a></li>
+            <li><a href="contactus.html" target="_blank" id="navigation-bar">CONTACT US</a></li>
         </ul>
     </nav>
 
     <div>
         <center>
             <h1 style="font-size: 50px;color: white">Pricing</h1>
+            <h6 style="font-size: 18px; color:#d9d9d9; width: 75%">Congratulations, you've reached the pricing page. Brace yourself for the shockingly affordable options we have in store. We know, it's hard to believe that you can adorn your screens with incredible wallpapers without emptying your bank account.
+            <br>
+            But hey, miracles do happen! Explore our budget-friendly pricing options and prepare to be pleasantly surprised. Who said great style had to come with a hefty price tag? We're here to shatter that myth and make your wallet do a happy dance.</h6>
+
         </center>
+    </div>
 
     <div class="pricing">
         <div class="pricing-table">
-        <h2>Basic</h2>
+        <h2 style="font-size: 35px;">Basic</h2>
         <p>Available once per user</p>
         <div class="price">₹50/trial-week</div>
         <ul>
-            <li>10 custom requests</li>
-            <li>Standard Quality</li>
-            <li>No Project Revisions</li>
-            <li>Limited Support</li>
+            <i class="fas fa-check"><li>10 custom requests</li></i><br>
+            <i class="fas fa-check"><li>Standard Quality</li></i><br>
+            <i class="fas fa-times"><li>No Project Revisions</li></i><br>
+            <i class="fas fa-times"><li>Limited Support</li></i><br><br><br><br>
         </ul>
         <a href="contactus.html" target="_blank" class="cta-btn">Enquire Now</a>
         </div>
 
         <div class="pricing-table">
-        <h2>Pro</h2>
+        <h2 style="font-size: 35px;">Pro</h2>
         <p>Welcome to the club</p>
         <div class="price">₹200/month</div>
         <ul>
-            <li>20 Custom Requests Per Week</li>
-            <li>Upto 1080p quality</li>
-            <li>5 Revisions Per Project</li>
-            <li>Exclusive Early Access</li>
-            <li></li>
+            <i class="fas fa-check"><li>20 Custom Requests Per Week</li></i><br>
+            <i class="fas fa-check"><li>Upto 1080p quality</li></i><br>
+            <i class="fas fa-check"><li>5 Revisions Per Project</li></i><br>
+            <i class="fas fa-times"><li>Exclusive Early Access</li></i><br><br><br><br>
+            
         </ul>
         <a href="contactus.html" target="_blank" class="cta-btn">Enquire Now</a>
         </div>
 
         <div class="pricing-table">
-        <h2>Elite</h2>
+        <h2 style="font-size: 33px;">Elite</h2>
         <p>Would you like some tea?</p>
         <div class="price">₹500/6 months</div>
         <ul>
-            <li>Unlimited Project & Revision Requests</li>
-            <li>Resolution Upto 4k HDR</li>
-            <li>Exclusive Early Access</li>
-            <li>24/7 Premium Support</li>
-            <li>Access to our discord community</li>
+            <i class="fas fa-check"><li>Unlimited Project & Revision Requests</li></i><br>
+            <i class="fas fa-check"><li>Resolution Upto 4k HDR</li></i><br>
+            <i class="fas fa-check"><li>Exclusive Early Access</li></i><br>
+            <i class="fas fa-check"><li>24/7 Premium Support</li></i><br>
+            <i class="fas fa-check"><li>Access to our discord community</li></i><br><br>
         </ul>
         <a href="contactus.html" target="_blank" class="cta-btn">Enquire Now</a>
         </div>
